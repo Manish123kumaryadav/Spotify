@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #1DB954;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+}
+
+.search input {
+	padding: 5px;
+	border: none;
+}
+
+.search button {
+	padding: 5px 10px;
+	background-color: #fff;
+	border: none;
+	color: #1DB954;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+main {
+	padding: 20px;
+}
+
+.featured {
+	margin-bottom: 20px;
+}
+
+.playlist {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.playlist img {
+	margin-right: 20px;
+}
+
+.recently-played {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.album {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.album img {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #282828;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
